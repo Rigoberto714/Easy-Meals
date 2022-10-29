@@ -15,17 +15,14 @@ padding: 0px 0px 0px 0px;
 }
 
 /*Barra de navegación*/
-/*Barra de navegación*/
 .movil{
   display: none;
 }
-.home{
-  padding-left: 00px;
-}
-.autores{
-  padding-left: 500px;
+.nav-menu{
+padding-left: 200px;
 }
 .h2-nav{
+  font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 padding-top: 24px;
 padding-left: 10px;
@@ -84,11 +81,13 @@ color: orange;
   list-style: none;
 }
 .nav-menu-item{
+  padding-left: 50px;
   padding-top: 15px;
   font-size: 21px;
   line-height: 30px;
   width: max-content;
 }
+
 
 
 /*Descripcion*/
@@ -159,26 +158,75 @@ color: orange;
 
 
   @media(max-width: 767px){
-    /*Ocultar*/
-    .carousel-indicators ,.carousel-control-next-icon ,.carousel-control-prev-icon
-    , .link-rs ,.contenedor {
-            display: none;
-    }
-    .header{
-        padding-top: 50px;
-    }
-    /*Navs*/
-    .movil{
-    display: block;
-    
-    }
-    .nav-menu-item{
+/*Ocultar*/
+.carousel-indicators ,.carousel-control-next-icon ,.carousel-control-prev-icon
+, .link-rs ,.contenedor {
         display: none;
-    }
-    .logo{
-        display: block;
-    }
-    
+}
+.header{
+    padding-top: 50px;
+}
+/*Navs*/
+.movil{
+display: block;
+
+}
+.icono-H{
+    padding-right: 20px;
+}
+.nav-menu{
+    padding: 0px;
+}
+.nav-menu-item{
+    display: none;
+}
+.logo{
+    display: block;
+}
+/*Barra lateral*/
+
+.icono-H{
+padding-top: 30px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #FCF4D6;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #212121;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: orange;
+  }
+  .sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
     /*Footer-Movil*/
     
