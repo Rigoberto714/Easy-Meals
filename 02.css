@@ -1,111 +1,29 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html{
-    scroll-behavior: smooth;
-}
-body{
     font-family: 'Montserrat', sans-serif;
 }
-.header{
-    padding-top: 0px;
-}
 
-/*Barra de navegación*/
-.movil{
-    display: none;
-
-}
-.home{
-    padding-left: 200px;
-}
-.autores{
-    padding-left: 50px;
-}
-.h2-nav{
-font-size: 25px;
-padding-top: 24px;
-font-weight:bold;
-}
-.nav{
-background-color: #fff;
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-}
-.logo{
-    padding-left: 50px;
-}
-.img-logo{
-    width: 48px;
-}
-.nav-link{
-    color: black;
-}
-.nav-link:hover{
-    color: orange;
-}
-.nav.link:hover{
-color: orange;
-}
-.animacion:before {
-    position: absolute;
-    content: "";
-    bottom: 20px;
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: orange;
-    transition: all .3s;
-}
-.animacion:hover:before {
-        width: 5%;
-}
-.dos:hover:before {
-        width: 6%;
-}
-.tre:hover:before {
-        width: 6%;
-}
-.cuatro:hover:before {
-        width: 12.5%;
-}
-.nav-menu{
-    display: flex;
-    margin-right: 30px;
-    list-style: none;
-}
-.nav-menu-item{
-    padding-top: 15px;
-    font-size: 21px;
-    line-height: 30px;
-    width: max-content;
+.section1{
+    padding-top: 100px;
+    left: 0px;
+    top: 0px;
+    height: 500px;
+    background-color: #F9F6F1;
 }
 
 
-.modal-title{
-font-weight: bold;
-}
+/* ------------------------Carrusel--------------------------- */
 
-.btn-primary{
-    background: linear-gradient(0.25turn, #ffa424, #ffc340, #ffa424);
-    border-color: navajowhite;
-}
-
-.btn-primary:hover{
-    border-color: navajowhite;
+.caruselimg1{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
 }
 /* ------------------------DIVISIÓN NUMERO 1--------------------------- */
 
 .división01{
-height: 235px;
-left: 0px;
+    padding-top: 150px;
+height: 350px;
+text-align: center;
 background: #212121;
 }
 
@@ -174,8 +92,21 @@ letter-spacing: 0.03em;
     padding-top: 10%;
     padding-left: 10%;
 }
-
-
+.imgmeal1{
+    padding-left: 30%;
+    display: inline-block;
+}
+.imgmeal2{
+    display: inline-block;
+}
+.imgmealp{
+    height: 100px;
+    display: inline-block;
+}
+.imgmealp1{
+    height: 100px;
+    display: inline-block;
+}
 
 /* ------------------------CLASIFICACIÓN DE LOS ALIMENTOS--------------------------- */
 
@@ -185,26 +116,28 @@ letter-spacing: 0.03em;
 }
 .seccionAl{
 width: 24.75%;
-height: 246px;
+height: 236px;
 background: #F4F4F4;
 display: inline-block;
 }
 
 .seccionA2{
     width: 24.75%;
-    height: 246px;
+    height: 236px;
     background: #F9F6F1;
     display: inline-block;
     }
 
 
     .alTi{
-        padding-top: 20%;
+        padding-top: 10%;
+        padding-left: 15%;
         font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
     font-size: 21px;
     line-height: 26px;
     letter-spacing: 0.03em;
-text-align: center;
 
     }
 
@@ -213,39 +146,12 @@ text-align: center;
         height: 129px;
         padding-left: 15%;
     }
-    .imgAlM{
-        width: 180px;
-        height: 129px;
-    }
-    .imgAlC{
-        padding-left: 80px;
-        height: 129px;
-    }
-    .imgAlV{
-        padding-left: 80px;
-        height: 129px;
-    }
+
     .imgCo{
-        height: 180px;
-        }
-        
-        .imgCoM{
-            height: 150px;
-            }
-            
-            .imgCoV{
-                width: 180px;
-                height: 170px;
-                }
+        width: 170px;
+        height: 170px;
+    }
 
-.imgCo{
-background-color: #f4f4f4;
-}
-
-.btn-primary{
-    border-color: #F4F4F4;
-}
-                
 
     /* ------------------------SECCIÓN 3--------------------------- */
 
@@ -279,7 +185,7 @@ background-color: #f4f4f4;
 
 
       .col01{
-        padding-bottom: 400px;
+        padding-bottom: 500px;
         display:inline-block;
       }
 
@@ -322,14 +228,6 @@ background-color: #f4f4f4;
     fill: transparent;
 }
 
-/*.rect01{
-height: 1200px;
-stroke: #D7B399;
-stroke-width:4;
-stroke-dasharray:80;
-animation: animate 20s linear infinite;
-}*/
-
 .caja .contenedor{
     max-width: 100%;
     max-height: 100%;
@@ -352,20 +250,30 @@ animation: animate 20s linear infinite;
 .botonview{
     background-color: transparent;
     border-color: transparent;
+
     font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
-padding-top: 50px;
-padding-left: 70px;
+padding-left: 10px;
+
 /* Accent */
 
 color: #D7B399;
 }
 
 
+.imgcolm{
+    display: inline;
+    width: 68px;
+    height: 68px;
+}
+
+.tipsimg{
+    height: 150px;
+}
 
 .Titcolm{
     font-family: 'Montserrat';
@@ -374,32 +282,94 @@ color: #D7B399;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
+
+    padding-top: 50px;
+    
     color: #000000; 
 
 }
 
-.TitcolmH{
+
+.poputp{
+    text-align: left;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000; 
-
+    font-size: 20px;
 }
-
-.home-p{
-    padding-top: 10px;
-    padding-left: 70px;
+/*Barra de navegación*/
+.movil{
+    display: none;
 }
-
-/*-----------------------------------------------------*/
-
-.img-home{
-    width: 200px;
-    height: 200px;
+.nav-menu{
+padding-left: 200px;
+}
+.h2-nav{
+    font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+padding-top: 24px;
+padding-left: 10px;
+font-weight: bold;
+}
+.nav{
+background-color: #fff;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 50px;
+}
+.img-logo{
+    width: 48px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: orange;
+}
+.nav.link:hover{
+color: orange;
+}
+.animacion:before {
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    transition: all .3s;
+}
+.animacion:hover:before {
+        width: 5%;
+}
+.dos:hover:before {
+        width: 6%;
+}
+.tre:hover:before {
+        width: 6%;
+}
+.cuatro:hover:before {
+        width: 12.5%;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 30px;
+    list-style: none;
+}
+.nav-menu-item{
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 21px;
+    line-height: 30px;
+    width: max-content;
 }
 /* ------------------------FOOTER -------------------------- */
+
 /*Footer*/
 
 footer{
@@ -441,3 +411,116 @@ footer{
     color:#aaa;
     margin-bottom:0;
   }
+
+
+/*-------------------------------------Modo Celular-------------------------------------*/
+
+@media(max-width: 767px){
+/*Ocultar*/
+.carousel-indicators ,.carousel-control-next-icon ,.carousel-control-prev-icon
+, .link-rs ,.contenedor {
+        display: none;
+}
+.header{
+    padding-top: 50px;
+}
+/*Navs*/
+.movil{
+display: block;
+
+}
+.icono-H{
+    padding-right: 20px;
+}
+.nav-menu{
+    padding: 0px;
+}
+.nav-menu-item{
+    display: none;
+}
+.logo{
+    display: block;
+}
+/*Barra lateral*/
+
+.icono-H{
+padding-top: 30px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #FCF4D6;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #212121;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: orange;
+  }
+  .sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.división01{
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+}
+p.frase{
+    padding: 25px;
+}
+
+.section1{
+    height: 300px;
+    width: 100%;
+}
+.fila01{
+display: flex;
+}
+.seccionAl ,.seccionA2{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.imgAl{
+padding: 0px;
+float: right;
+}
+
+.col01{
+    padding-bottom: 290px;
+}
+.columnas01{
+padding-left: 40px;
+}
+.no{
+    display: none;
+}
+}
+
+
