@@ -1,0 +1,602 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section1{
+    left: 0px;
+    top: 0px;
+    background-color: #F9F6F1;
+    display: block;
+}
+
+/* ------------------------Carrusel--------------------------- */
+
+.carrusel0a{
+    top: 30px;
+    padding-bottom: 10%;
+}
+
+
+.izqsec01{
+    padding-left: 10%;
+    display: inline-block;
+    top: -50px;
+    
+
+}
+.imgizqsec01{
+    height: 450px;
+    display: inline-block;
+}
+.dersec01{
+    padding-left: 8%;
+    display: inline-block;
+    top: 100px;
+}
+
+.titlesec01{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+
+color: #000000;
+
+}
+
+.infosec01 p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+text-align: left;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 0px;
+color: #000000;
+}
+
+.ingresec01{
+    padding-top: 12px;
+}
+
+
+.ingresec01 p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 24px;
+
+color: #000000;
+
+}
+
+.liingred li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    
+    color: #000000;
+}
+
+
+/* ------------------------DIVISIÓN PASOS DE RECETAS-------------------------- */
+.seccionpasos{
+    background-color:#F4F4F4;
+    display: block;
+}
+.izqpasos{
+    padding-top: 7%;
+    padding-left: 10%;
+    width: 49.5%;
+    display: inline-block;
+}
+
+.izqpasos p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.derpasos{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #D7B399;
+    display: inline-block;
+    top: -100px;
+}
+
+
+.listapasos li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+
+.tippasos{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+   
+    color: #FFFFFF;
+padding-bottom: 20px;
+padding-top: 10px;
+
+
+}
+
+.tippasos p{
+    margin-bottom: 0%;
+}
+/* ------------------------DIVISIÓN NUMERO 1--------------------------- */
+
+.división01{
+height: 235px;
+left: 0px;
+background: #212121;
+}
+
+.frase{
+padding-top: 22mm;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.autor{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+    /* ------------------------SECCIÓN 3--------------------------- */
+
+    .seccion3{
+        padding-top: 7%;
+    }
+
+
+    .Titul03{
+        /* h2 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    /* Black */
+
+    color: #212121;
+
+    text-align: center;
+    }
+
+
+   
+
+/* ------------------------FOOTER -------------------------- */
+
+footer{
+height: 150px;
+padding-top: 10px;
+
+
+/* Black */
+
+background: #212121;
+}
+
+
+.footer-basic ul a:hover {
+    opacity:1;
+  }
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  .footer-basic .social a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #aaa;
+    margin:0 8px;
+    color:inherit;
+    opacity:1;
+  }
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  .footer-basic .copyright {
+    padding-bottom: 20px;
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+i{
+    color: #F4F4F4;
+}
+
+
+
+/*-------------------------------------Modo Celular-------------------------------------*/
+@media(max-width: 767px){
+    /*Ocultar*/
+    .carousel-indicators ,.carousel-control-next-icon ,.carousel-control-prev-icon
+    , .link-rs ,.contenedor {
+            display: none;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    /*Navs*/
+    .movil{
+    display: block;
+    
+    }
+    .icono-H{
+        padding-right: 20px;
+    }
+    .nav-menu{
+        padding: 0px;
+    }
+    .nav-menu-item{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    /*Barra lateral*/
+    
+    .icono-H{
+    padding-top: 30px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0; 
+        left: 0;
+        background-color: #FCF4D6;
+        overflow-x: hidden; 
+        padding-top: 60px;
+        transition: 0.5s; 
+    
+      }
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #212121;
+        display: block;
+        transition: 0.3s;
+      }
+      .sidenav a:hover {
+        color: orange;
+      }
+      .sidenav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      #main {
+        transition: margin-left .5s;
+        padding: 20px;
+      }
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+    .división01{
+        width: 100%;
+        height: 200px;
+        padding: 0px;
+    }
+    p.frase{
+        padding: 25px;
+    }
+    
+    .section1{
+        height: 300px;
+        width: 100%;
+    }
+    .fila01{
+    display: flex;
+    }
+    .seccionAl ,.seccionA2{
+        display: flex;
+        height: 200px;
+        width: 100%;
+    }
+    
+    .imgAl{
+    padding: 0px;
+    float: right;
+    }
+    
+    .col01{
+        padding-bottom: 290px;
+    }
+    .columnas01{
+    padding-left: 40px;
+    }
+    .no{
+        display: none;
+    }
+
+    .segundo02{
+        padding-top: 900px;
+    }
+    .derpasos{
+        padding-top: -10px;
+        top: 60px;
+        width: 100%;
+    }
+
+    .tippasos p{
+        text-align: center;
+    }
+
+    .división01{
+        top: 80px;
+    }
+
+    .footer{
+        top: 80px;
+    }
+    }
+    
+
+/*Barra de navegación*/
+.movil{
+    display: none;
+}
+.nav-menu{
+   
+    padding-left: 180px;
+}
+.h2-nav{
+    font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+padding-top: 24px;
+padding-left: 10px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #212121;
+}
+.nav{
+background-color: #F9F6F1;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+.logo{
+    padding-left: 50px;
+    
+    
+}
+.img-logo{
+    width: 68px;
+    height: 68px;
+    margin-right: -3%;
+    margin-top: 1%;
+}
+.nav-link{
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.nav-link:hover{
+    color: orange;
+}
+.nav.link:hover{
+color: orange;
+}
+/*
+.animacion:before {
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: orange;
+    transition: all .3s;
+}*/
+.animacion:hover:before {
+        width: 5%;
+}
+.dos:hover:before {
+        width: 6%;
+}
+.tre:hover:before {
+        width: 6%;
+}
+.cuatro:hover:before {
+        width: 12.5%;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 30px;
+    list-style: none;
+    padding-top: 20px;
+}
+.nav-menu-item{
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 21px;
+    line-height: 30px;
+    width: max-content;
+}
+
+
+
+/*-------------------------------------Modo Celular-------------------------------------*/
+
+@media(max-width: 767px){
+/*Ocultar*/
+.carousel-indicators ,.carousel-control-next-icon ,.carousel-control-prev-icon
+, .link-rs ,.contenedor {
+        display: none;
+}
+.header{
+    padding-top: 50px;
+}
+/*Navs*/
+.movil{
+display: block;
+
+}
+.icono-H{
+    padding-right: 20px;
+}
+.nav-menu{
+    padding: 0px;
+}
+.nav-menu-item{
+    display: none;
+}
+.logo{
+    display: block;
+}
+/*Barra lateral*/
+
+.icono-H{
+padding-top: 30px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: #FCF4D6;
+    overflow-x: hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #212121;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: orange;
+  }
+  .sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.división01{
+    width: 100%;
+    height: 200px;
+    padding: 0px;
+}
+p.frase{
+    padding: 25px;
+}
+
+.section1{
+    height: 300px;
+    width: 100%;
+}
+.fila01{
+display: flex;
+}
+.seccionAl ,.seccionA2{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.imgAl{
+padding: 0px;
+float: right;
+}
+
+.col01{
+    padding-bottom: 290px;
+}
+.columnas01{
+padding-left: 40px;
+}
+.no{
+    display: none;
+}
+}
+
+
