@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -11,85 +12,17 @@ nav , .rutines ,.footer-basic{
     font-family: 'Montserrat', sans-serif;
 }
 
-/*Barra de navegación*/
-/*Barra de navegación*/
-.movil{
-  display: none;
+.rutines{
+  background-color: #F4F4F4;
 }
-.home{
-  padding-left: 00px;
-}
-.autores{
-  padding-left: 500px;
-}
-.h2-nav{
-font-size: 25px;
-padding-top: 24px;
-padding-left: 10px;
-font-weight: bold;
-}
-.nav{
-background-color: #fff;
-  height: 80px;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  position: fixed;
-  justify-content: space-between;
-}
-.logo{
-  padding-left: 50px;
-}
-.img-logo{
-  width: 48px;
-}
-.nav-link{
-  color: black;
-}
-.nav-link:hover{
-  color: orange;
-}
-.nav.link:hover{
-color: orange;
-}
-.animacion:before {
-  position: absolute;
-  content: "";
-  bottom: 20px;
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: orange;
-  transition: all .3s;
-}
-.animacion:hover:before {
-      width: 5%;
-}
-.dos:hover:before {
-      width: 6%;
-}
-.tre:hover:before {
-      width: 6%;
-}
-.cuatro:hover:before {
-      width: 12.5%;
-}
-.nav-menu{
-  display: flex;
-  margin-right: 30px;
-  list-style: none;
-}
-.nav-menu-item{
-  padding-top: 15px;
-  font-size: 21px;
-  line-height: 30px;
-  width: max-content;
-}
+
 
 
 /*Routines*/
 
+.card-body{
+  background-color:#F9F6F1 ;
+}
 .rutines{
     padding-top:200px;
     padding-bottom: 100px;
@@ -109,7 +42,7 @@ color: orange;
     width: 110px;
     margin-top: -60px;
     overflow: hidden;
-    border: 3px solid #fff;
+    border: 3px solid #F4F4F4;
     border-radius: 50%;
 }
 .item {
@@ -151,7 +84,7 @@ padding-top: 50px;
 /*FOOTER*/
 footer{
     position: absolute;
-    color: #fff;
+    color: #F4F4F4;
     padding-top: 50px;
     width: 100%;
     margin-bottom: 0;
@@ -289,3 +222,211 @@ footer{
       }
     
     }    
+
+
+    
+.movil{
+  display: none;
+}
+.nav-menu{
+ 
+  padding-left: 180px;
+}
+.h2-nav{
+  font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+padding-top: 24px;
+padding-left: 10px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #212121;
+}
+.nav{
+background-color: #F9F6F1;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+}
+.logo{
+  padding-left: 50px;
+  
+  
+}
+.img-logo{
+  width: 68px;
+  height: 68px;
+  margin-right: -3%;
+  margin-top: 1%;
+}
+.nav-link{
+  padding: 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.nav-link:hover{
+  color: orange;
+}
+.nav.link:hover{
+color: orange;
+}
+/*
+.animacion:before {
+  position: absolute;
+  content: "";
+  bottom: 20px;
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: orange;
+  transition: all .3s;
+}*/
+.animacion:hover:before {
+      width: 5%;
+}
+.dos:hover:before {
+      width: 6%;
+}
+.tre:hover:before {
+      width: 6%;
+}
+.cuatro:hover:before {
+      width: 12.5%;
+}
+.nav-menu{
+  display: flex;
+  margin-right: 30px;
+  list-style: none;
+  padding-top: 20px;
+}
+.nav-menu-item{
+  padding-left: 50px;
+  padding-top: 15px;
+  font-size: 21px;
+  line-height: 30px;
+  width: max-content;
+}
+
+
+/*-------------------------------------Modo Celular-------------------------------------*/
+
+@media(max-width: 767px){
+  /*Ocultar*/
+  .carousel-indicators ,.carousel-control-next-icon ,.carousel-control-prev-icon
+  , .link-rs ,.contenedor {
+          display: none;
+  }
+  .header{
+      padding-top: 50px;
+  }
+  /*Navs*/
+  .movil{
+  display: block;
+  
+  }
+  .icono-H{
+      padding-right: 20px;
+  }
+  .nav-menu{
+      padding: 0px;
+  }
+  .nav-menu-item{
+      display: none;
+  }
+  .logo{
+      display: block;
+  }
+  /*Barra lateral*/
+  
+  .icono-H{
+  padding-top: 30px;
+  }
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0; 
+      left: 0;
+      background-color: #FCF4D6;
+      overflow-x: hidden; 
+      padding-top: 60px;
+      transition: 0.5s; 
+  
+    }
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #212121;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover {
+      color: orange;
+    }
+    .sidenav .closebtn{
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+  .división01{
+      width: 100%;
+      height: 200px;
+      padding: 0px;
+  }
+  p.frase{
+      padding: 25px;
+  }
+  
+  .section1{
+      height: 300px;
+      width: 100%;
+  }
+  .fila01{
+  display: flex;
+  }
+  .seccionAl ,.seccionA2{
+      display: flex;
+      height: 200px;
+      width: 100%;
+  }
+  
+  .imgAl{
+  padding: 0px;
+  float: right;
+  }
+  
+  .col01{
+      padding-bottom: 290px;
+  }
+  .columnas01{
+  padding-left: 40px;
+  }
+  .no{
+      display: none;
+  }
+  }
+  
+  
+  

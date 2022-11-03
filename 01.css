@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -13,22 +14,41 @@ body{
     padding-top: 0px;
 }
 
-/*Barra de navegación*/
+.dark-grey-text.mt-4{
+    font-weight: 400;
+}
+.caruselimg1{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+.interesp{
+    font-weight: 400;
+}
+
+/*-------------------------Barra de navegación-------------------------------*/
+
 .movil{
     display: none;
 }
 .nav-menu{
-padding-left: 200px;
+   
+    padding-left: 180px;
 }
 .h2-nav{
+    font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 padding-top: 24px;
 padding-left: 10px;
-font-weight: bold;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #212121;
 }
 .nav{
-background-color: #fff;
-    height: 80px;
+background-color: #F9F6F1;
+    height: 100px;
     width: 100%;
     top: 0;
     left: 0;
@@ -38,12 +58,24 @@ background-color: #fff;
 }
 .logo{
     padding-left: 50px;
+    
+    
 }
 .img-logo{
-    width: 48px;
+    width: 68px;
+    height: 68px;
+    margin-right: -3%;
+    margin-top: 1%;
 }
 .nav-link{
-    color: black;
+    padding: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
 .nav-link:hover{
     color: orange;
@@ -51,6 +83,7 @@ background-color: #fff;
 .nav.link:hover{
 color: orange;
 }
+/*
 .animacion:before {
     position: absolute;
     content: "";
@@ -60,7 +93,7 @@ color: orange;
     height: 2px;
     background-color: orange;
     transition: all .3s;
-}
+}*/
 .animacion:hover:before {
         width: 5%;
 }
@@ -77,6 +110,7 @@ color: orange;
     display: flex;
     margin-right: 30px;
     list-style: none;
+    padding-top: 20px;
 }
 .nav-menu-item{
     padding-left: 50px;
@@ -85,7 +119,6 @@ color: orange;
     line-height: 30px;
     width: max-content;
 }
-
 
 /*Barra de redes sociales*/
 
@@ -186,6 +219,9 @@ border: hidden;
 .card-deck{
 padding-left: 170px;
 width: 1190px;
+}
+.card-text{
+    font-weight: 400;
 }
 .card-img{
     transition: transform 1s;
